@@ -8,7 +8,7 @@ public class Main {
         // when running tests.
         System.out.println("Logs from your program will appear here!");
 
-        // Uncomment the code below to pass the first stage
+        // Create socket and listen for connections
         ServerSocket serverSocket = null;
         Socket clientSocket = null;
         int port = 6379;
